@@ -1,0 +1,9 @@
+from django.test import TestCase
+from warehouse.models import Tag as Tag
+from warehouse.repository.generator_layer import WarehouseDataGenerator as WarehouseDataGenerator
+
+class TagQuerySetManager(TestCase):
+    @classmethod
+    def setUpClass(cls) -> None: ...
+    def test_queryset_get_most_used_tag(self) -> None: ...
+    def test_queryset_get_most_used_tag_in_categories(self) -> None: ...

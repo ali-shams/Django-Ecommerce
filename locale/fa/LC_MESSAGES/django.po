@@ -1,0 +1,2597 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-26 13:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: account/forms/auth.py:25
+#: media/templates/pages/components/product/tab.html:46
+#: media/templates/pages/components/product/tab.html:123
+#: media/templates/pages/contact.html:62
+#: media/templates/pages/partials/footer.html:26
+msgid "Email"
+msgstr ""
+
+#: account/forms/auth.py:26 account/forms/auth.py:90 account/forms/user.py:22
+#: media/templates/pages/components/form/base-address.html:29
+#: media/templates/pages/contact.html:70 pages/models/contact.py:27
+msgid "Phone Number"
+msgstr ""
+
+#: account/forms/auth.py:27 account/forms/auth.py:91
+msgid "Password"
+msgstr ""
+
+#: account/forms/auth.py:28
+msgid "Confirm Password"
+msgstr ""
+
+#: account/forms/user.py:24
+msgid "User Phone Number"
+msgstr ""
+
+#: account/helper/enums.py:6
+msgid "male"
+msgstr ""
+
+#: account/helper/enums.py:7
+msgid "female"
+msgstr ""
+
+#: account/models/profile.py:21
+msgid "gender"
+msgstr ""
+
+#: account/models/profile.py:25
+msgid "users' gender"
+msgstr ""
+
+#: account/models/profile.py:29 account/models/profile.py:33
+msgid "nick name"
+msgstr ""
+
+#: account/models/profile.py:36
+msgid "job"
+msgstr ""
+
+#: account/models/profile.py:40
+msgid "user's job name"
+msgstr ""
+
+#: account/models/profile.py:43
+msgid "birth_date"
+msgstr ""
+
+#: account/models/profile.py:45
+msgid "user's birth date"
+msgstr ""
+
+#: account/models/profile.py:48
+msgid "national code"
+msgstr ""
+
+#: account/models/profile.py:53
+msgid "National ID."
+msgstr ""
+
+#: account/models/profile.py:57 basket/models/cart.py:30
+#: basket/models/order.py:104 feedback/models/comment.py:49
+#: feedback/models/wishlist.py:21 logistic/models/address.py:27
+#: voucher/models/single_use_voucher.py:58
+msgid "user"
+msgstr ""
+
+#: account/models/profile.py:60
+msgid "The user this profile belongs to."
+msgstr ""
+
+#: account/models/profile.py:63
+msgid "complete"
+msgstr ""
+
+#: account/models/profile.py:66
+msgid " weather user's profile is complete"
+msgstr ""
+
+#: account/models/profile.py:73
+msgid "Profile"
+msgstr ""
+
+#: account/models/profile.py:74
+msgid "Profiles"
+msgstr ""
+
+#: account/models/user.py:34
+msgid "A user token for sending emails and OTP verification."
+msgstr ""
+
+#: account/models/user.py:37
+msgid "first name"
+msgstr ""
+
+#: account/models/user.py:42
+msgid "User's first name."
+msgstr ""
+
+#: account/models/user.py:45
+msgid "last name"
+msgstr ""
+
+#: account/models/user.py:50
+msgid "User's last name."
+msgstr ""
+
+#: account/models/user.py:53
+msgid "phone number"
+msgstr ""
+
+#: account/models/user.py:58
+msgid "User's phone number."
+msgstr ""
+
+#: account/models/user.py:61 feedback/models/review.py:47
+msgid "email"
+msgstr ""
+
+#: account/models/user.py:64
+msgid "User's email."
+msgstr ""
+
+#: account/models/user.py:88
+msgid "User"
+msgstr ""
+
+#: account/models/user.py:89
+msgid "Users"
+msgstr ""
+
+#: account/repository/manager/base_manager.py:30
+msgid "Superuser must have is_staff=True."
+msgstr ""
+
+#: account/repository/manager/base_manager.py:32
+msgid "Superuser must have is_superuser=True."
+msgstr ""
+
+#: basket/admin/pack_cart.py:38
+msgid "pack quantity and creation and modification time can be searched"
+msgstr ""
+
+#: basket/admin/pack_order.py:61 warehouse/admin/pack.py:84
+msgid "Pack Information"
+msgstr ""
+
+#: basket/admin/pack_order.py:72
+msgid "Cost Information"
+msgstr ""
+
+#: basket/admin/pack_order.py:80 feedback/admin/comment.py:54
+#: feedback/admin/post.py:45 feedback/admin/review.py:47
+#: feedback/admin/wishlist.py:43 logistic/admin/address.py:67
+#: logistic/admin/delivery_time_range.py:48 logistic/admin/logistic.py:62
+#: logistic/admin/logistic_cost_range.py:46
+#: logistic/admin/logistic_distance_range.py:46
+#: logistic/admin/logistic_weight_range.py:46 logistic/admin/province.py:40
+#: voucher/admin/single_use_voucher.py:58 voucher/admin/voucher.py:70
+#: voucher/admin/voucher_range.py:50 warehouse/admin/brand.py:61
+#: warehouse/admin/category.py:97 warehouse/admin/color.py:39
+#: warehouse/admin/expense.py:60 warehouse/admin/pack.py:99
+#: warehouse/admin/product.py:163 warehouse/admin/tag.py:45
+#: warehouse/admin/warranty.py:38
+msgid "Security Center"
+msgstr ""
+
+#: basket/admin/refund.py:39
+msgid "Refund Information"
+msgstr ""
+
+#: basket/admin/refund.py:48
+msgid "Reason"
+msgstr ""
+
+#: basket/helper/enums.py:6
+msgid "waiting"
+msgstr ""
+
+#: basket/helper/enums.py:7
+msgid "Processing"
+msgstr ""
+
+#: basket/helper/enums.py:8
+msgid "Shipped"
+msgstr ""
+
+#: basket/helper/enums.py:9
+msgid "Delivered"
+msgstr ""
+
+#: basket/helper/enums.py:10
+msgid "Completed"
+msgstr ""
+
+#: basket/helper/enums.py:11
+msgid "Expiring"
+msgstr ""
+
+#: basket/helper/enums.py:12
+msgid "Cancelled"
+msgstr ""
+
+#: basket/models/cart.py:22 basket/models/pack_cart.py:28
+#: painless/models/mixins.py:58
+msgid "slug"
+msgstr ""
+
+#: basket/models/cart.py:26 basket/models/pack_cart.py:32
+msgid "A hashed value that can be used to display in the URL."
+msgstr ""
+
+#: basket/models/cart.py:33
+msgid "The user this cart belongs to."
+msgstr ""
+
+#: basket/models/cart.py:38 basket/models/order.py:127
+#: voucher/models/voucher_range.py:47
+msgid "packs"
+msgstr ""
+
+#: basket/models/cart.py:40
+msgid "Access to the related pack(s) of a cart."
+msgstr ""
+
+#: basket/models/cart.py:48 basket/views/cart.py:23
+msgid "Cart"
+msgstr ""
+
+#: basket/models/cart.py:49
+msgid "Carts"
+msgstr ""
+
+#: basket/models/order.py:37
+msgid "footnote"
+msgstr ""
+
+#: basket/models/order.py:38
+msgid "Additional user description for his/her order."
+msgstr ""
+
+#: basket/models/order.py:42
+msgid "transaction number"
+msgstr ""
+
+#: basket/models/order.py:46
+msgid "User's unique order number."
+msgstr ""
+
+#: basket/models/order.py:49 voucher/models/voucher.py:91
+msgid "status"
+msgstr ""
+
+#: basket/models/order.py:53
+msgid "Determines what stage the user is in the order."
+msgstr ""
+
+#: basket/models/order.py:56
+msgid "total cost"
+msgstr ""
+
+#: basket/models/order.py:61
+msgid "The final cost of the order."
+msgstr ""
+
+#: basket/models/order.py:64
+msgid "total shipping cost"
+msgstr ""
+
+#: basket/models/order.py:69
+msgid "The final shipping cost."
+msgstr ""
+
+#: basket/models/order.py:72
+msgid "total discount"
+msgstr ""
+
+#: basket/models/order.py:77
+msgid "The final discount cost."
+msgstr ""
+
+#: basket/models/order.py:80
+msgid "total cost without discount"
+msgstr ""
+
+#: basket/models/order.py:85
+msgid "The final cost without any discount."
+msgstr ""
+
+#: basket/models/order.py:88
+msgid "total cost without discount and shipping"
+msgstr ""
+
+#: basket/models/order.py:93
+msgid "The final cost without any discount and shipping."
+msgstr ""
+
+#: basket/models/order.py:97
+msgid "order_address"
+msgstr ""
+
+#: basket/models/order.py:98 basket/models/pack_order.py:68
+msgid "order"
+msgstr ""
+
+#: basket/models/order.py:100
+msgid "Access to the related order address of an order."
+msgstr ""
+
+#: basket/models/order.py:107
+msgid "Access to the related user of an order."
+msgstr ""
+
+#: basket/models/order.py:111 logistic/models/delivery_time_range.py:64
+#: logistic/models/logistic_cost_range.py:38
+#: logistic/models/logistic_distance_range.py:30
+#: logistic/models/logistic_weight_range.py:30
+msgid "logistic"
+msgstr ""
+
+#: basket/models/order.py:115
+msgid "Access to the related logistic of an order."
+msgstr ""
+
+#: basket/models/order.py:119 basket/models/pack_order.py:82
+msgid "vouchers"
+msgstr ""
+
+#: basket/models/order.py:122
+msgid "Access to the related voucher(s) of an order."
+msgstr ""
+
+#: basket/models/order.py:129
+msgid "Access to the related pack(s) of an order."
+msgstr ""
+
+#: basket/models/order.py:145
+msgid "Order"
+msgstr ""
+
+#: basket/models/order.py:146
+msgid "Orders"
+msgstr ""
+
+#: basket/models/order_address.py:33
+msgid "Order Address"
+msgstr ""
+
+#: basket/models/order_address.py:34
+msgid "Order Addresses"
+msgstr ""
+
+#: basket/models/pack_cart.py:35 basket/models/pack_order.py:37
+msgid "quantity"
+msgstr ""
+
+#: basket/models/pack_cart.py:36
+msgid "The number of packs in the cart."
+msgstr ""
+
+#: basket/models/pack_cart.py:40
+msgid "cart"
+msgstr ""
+
+#: basket/models/pack_cart.py:43
+msgid "Access to the related cart of a pack cart."
+msgstr ""
+
+#: basket/models/pack_cart.py:47 basket/models/pack_order.py:75
+#: warehouse/models/expense.py:65
+msgid "pack"
+msgstr ""
+
+#: basket/models/pack_cart.py:50
+msgid "Access to the related pack of a pack cart."
+msgstr ""
+
+#: basket/models/pack_cart.py:58
+msgid "Pack Cart"
+msgstr ""
+
+#: basket/models/pack_cart.py:59
+msgid "Pack Carts"
+msgstr ""
+
+#: basket/models/pack_order.py:38
+msgid "The number of packs in the order."
+msgstr ""
+
+#: basket/models/pack_order.py:41
+msgid "cost"
+msgstr ""
+
+#: basket/models/pack_order.py:45
+msgid "The final cost of the pack for the user to pay."
+msgstr ""
+
+#: basket/models/pack_order.py:48
+msgid "cost without discount"
+msgstr ""
+
+#: basket/models/pack_order.py:52
+msgid "The final cost of the pack for the user to pay without any discount."
+msgstr ""
+
+#: basket/models/pack_order.py:55 warehouse/models/expense.py:40
+msgid "buy price"
+msgstr ""
+
+#: basket/models/pack_order.py:59
+msgid "The final cost of each pack for the provider pays."
+msgstr ""
+
+#: basket/models/pack_order.py:62
+msgid "is refunded"
+msgstr ""
+
+#: basket/models/pack_order.py:64
+msgid "Is this pack order refundable or not?"
+msgstr ""
+
+#: basket/models/pack_order.py:71
+msgid "Access to the related order of a pack order."
+msgstr ""
+
+#: basket/models/pack_order.py:78
+msgid "Access to the related pack of a pack order."
+msgstr ""
+
+#: basket/models/pack_order.py:85
+msgid "Access to the related voucher(s) of a pack order."
+msgstr ""
+
+#: basket/models/pack_order.py:93 basket/models/pack_order.py:94
+msgid "Pack Orders"
+msgstr ""
+
+#: basket/models/refund.py:29
+msgid "reason"
+msgstr ""
+
+#: basket/models/refund.py:30
+msgid "The reason for refunding the pack order(s)."
+msgstr ""
+
+#: basket/models/refund.py:34
+msgid "pack_order"
+msgstr ""
+
+#: basket/models/refund.py:37
+msgid "The pack order this refund belongs to."
+msgstr ""
+
+#: basket/models/refund.py:45
+msgid "Refund"
+msgstr ""
+
+#: basket/models/refund.py:46
+msgid "Refunds"
+msgstr ""
+
+#: basket/views/cart.py:39 basket/views/cart.py:43 basket/views/cart.py:47
+#: basket/views/cart.py:55 basket/views/cart.py:59 basket/views/cart.py:63
+#: basket/views/cart.py:122
+msgid "There was something wrong with updating your cart."
+msgstr ""
+
+#: basket/views/cart.py:52
+msgid "Your cart has been updated."
+msgstr ""
+
+#: basket/views/cart.py:101 basket/views/cart.py:105
+msgid "There was something wrong with deleting product from your cart."
+msgstr ""
+
+#: basket/views/cart.py:126 basket/views/cart.py:130 pages/views/compare.py:102
+msgid "This product does not exists."
+msgstr ""
+
+#: basket/views/checkout.py:24 basket/views/checkout_success.py:25
+msgid "Checkout"
+msgstr ""
+
+#: basket/views/checkout.py:63 basket/views/checkout.py:83
+msgid "There was something wrong with your addresses"
+msgstr ""
+
+#: feedback/admin/comment.py:34
+msgid "Search comment by product title."
+msgstr ""
+
+#: feedback/admin/comment.py:46 feedback/admin/post.py:40
+#: feedback/admin/review.py:39 feedback/admin/wishlist.py:37
+#: logistic/admin/address.py:53 logistic/admin/delivery_time_range.py:43
+#: logistic/admin/logistic.py:49 logistic/admin/logistic_cost_range.py:40
+#: logistic/admin/logistic_distance_range.py:40
+#: logistic/admin/logistic_weight_range.py:40 logistic/admin/province.py:35
+#: voucher/admin/single_use_voucher.py:45 voucher/admin/voucher.py:50
+#: voucher/admin/voucher_range.py:39 warehouse/admin/brand.py:55
+#: warehouse/admin/category.py:78 warehouse/admin/color.py:33
+#: warehouse/admin/pack.py:79 warehouse/admin/product.py:136
+#: warehouse/admin/tag.py:39 warehouse/admin/warranty.py:33
+msgid "Basic Information"
+msgstr ""
+
+#: feedback/admin/post.py:30
+msgid "Search post by category title."
+msgstr ""
+
+#: feedback/admin/review.py:32
+msgid "Search review by product title."
+msgstr ""
+
+#: feedback/admin/wishlist.py:27
+msgid "Search wishlist by user phone number."
+msgstr ""
+
+#: feedback/models/comment.py:30
+msgid "comment text"
+msgstr ""
+
+#: feedback/models/comment.py:31
+msgid "User's comment text."
+msgstr ""
+
+#: feedback/models/comment.py:35
+msgid "post"
+msgstr ""
+
+#: feedback/models/comment.py:38
+msgid "Access to the related post of a comment."
+msgstr ""
+
+#: feedback/models/comment.py:42 feedback/models/review.py:56
+#: warehouse/models/pack.py:44 warehouse/models/physical_info.py:48
+#: warehouse/models/product_gallery.py:31
+msgid "product"
+msgstr ""
+
+#: feedback/models/comment.py:45
+msgid "Access to the related product of a comment."
+msgstr ""
+
+#: feedback/models/comment.py:52
+msgid "Access to the related user of a comment."
+msgstr ""
+
+#: feedback/models/comment.py:56
+msgid "super comment"
+msgstr ""
+
+#: feedback/models/comment.py:61
+msgid "Provide hierarchical comments."
+msgstr ""
+
+#: feedback/models/comment.py:69
+#: media/templates/pages/components/product/tab.html:7
+#: media/templates/pages/components/product/tab.html:22
+msgid "Comment"
+msgstr ""
+
+#: feedback/models/comment.py:70
+msgid "Comments"
+msgstr ""
+
+#: feedback/models/post.py:22 warehouse/models/product.py:66
+msgid "category"
+msgstr ""
+
+#: feedback/models/post.py:25
+msgid "Access to the related category of a post."
+msgstr ""
+
+#: feedback/models/post.py:32
+msgid "Post"
+msgstr ""
+
+#: feedback/models/post.py:33
+msgid "Posts"
+msgstr ""
+
+#: feedback/models/review.py:35 logistic/models/logistic.py:46
+#: painless/models/mixins.py:53 painless/models/mixins.py:68
+#: painless/models/mixins.py:82 warehouse/models/color.py:23
+#: warehouse/models/warranty.py:29
+msgid "title"
+msgstr ""
+
+#: feedback/models/review.py:38
+msgid "User's review title."
+msgstr ""
+
+#: feedback/models/review.py:41
+msgid "rate"
+msgstr ""
+
+#: feedback/models/review.py:44
+msgid "User's review rate."
+msgstr ""
+
+#: feedback/models/review.py:48
+msgid "User's email to submit review."
+msgstr ""
+
+#: feedback/models/review.py:51
+msgid "message"
+msgstr ""
+
+#: feedback/models/review.py:52
+msgid "User's review message."
+msgstr ""
+
+#: feedback/models/review.py:59
+msgid "Access to the related product of a review."
+msgstr ""
+
+#: feedback/models/review.py:67
+#: media/templates/pages/components/product/tab.html:8
+#: media/templates/pages/components/product/tab.html:99
+msgid "Review"
+msgstr ""
+
+#: feedback/models/review.py:68
+msgid "Reviews"
+msgstr ""
+
+#: feedback/models/wishlist.py:25
+msgid "The user this wishlist belongs to."
+msgstr ""
+
+#: feedback/models/wishlist.py:29
+#: media/templates/pages/components/product/list_toolbar.html:15
+msgid "products"
+msgstr ""
+
+#: feedback/models/wishlist.py:31
+msgid "Access to the related product(s) of a wishlist."
+msgstr ""
+
+#: feedback/models/wishlist.py:39
+msgid "WishList"
+msgstr ""
+
+#: feedback/models/wishlist.py:40
+msgid "WishLists"
+msgstr ""
+
+#: kernel/settings/packages.py:168
+msgid "Iranian Rial"
+msgstr ""
+
+#: kernel/settings/packages.py:174
+msgid "Iranian Toman"
+msgstr ""
+
+#: logistic/admin/address.py:40
+msgid "Search address by country, province and city."
+msgstr ""
+
+#: logistic/admin/address.py:61 logistic/admin/logistic.py:56
+#: voucher/admin/single_use_voucher.py:52 voucher/admin/voucher.py:64
+#: voucher/admin/voucher_range.py:44 warehouse/admin/category.py:87
+#: warehouse/admin/pack.py:92 warehouse/admin/product.py:156
+msgid "Marketing"
+msgstr ""
+
+#: logistic/admin/delivery_time_range.py:33 logistic/admin/logistic.py:33
+#: logistic/admin/logistic_cost_range.py:33
+#: logistic/admin/logistic_distance_range.py:33
+#: logistic/admin/logistic_weight_range.py:33
+msgid "Search logistics by their title."
+msgstr ""
+
+#: logistic/admin/province.py:29
+msgid "Search Provinces by their title."
+msgstr ""
+
+#: logistic/forms/address.py:12
+msgid "Receiver First Name"
+msgstr ""
+
+#: logistic/forms/address.py:13
+msgid "Receiver Last Name"
+msgstr ""
+
+#: logistic/forms/address.py:14
+msgid "Receiver Phone Number"
+msgstr ""
+
+#: logistic/forms/address.py:15
+#: media/templates/pages/components/form/base-address.html:15
+msgid "Country"
+msgstr ""
+
+#: logistic/forms/address.py:16 logistic/models/province.py:29
+#: media/templates/pages/components/form/base-address.html:19
+msgid "Province"
+msgstr ""
+
+#: logistic/forms/address.py:17
+#: media/templates/pages/components/form/base-address.html:25
+msgid "City"
+msgstr ""
+
+#: logistic/forms/address.py:18
+#: media/templates/pages/basket/checkout-success.html:80
+#: media/templates/pages/basket/checkout.html:35
+msgid "Postal Address"
+msgstr ""
+
+#: logistic/forms/address.py:19
+#: media/templates/pages/components/form/base-address.html:39
+msgid "Postal Code"
+msgstr ""
+
+#: logistic/forms/address.py:20
+#: media/templates/pages/components/form/base-address.html:45
+msgid "House Number"
+msgstr ""
+
+#: logistic/forms/address.py:21
+#: media/templates/pages/components/form/base-address.html:49
+msgid "Building Unit"
+msgstr ""
+
+#: logistic/forms/address.py:23
+msgid "Choose a province"
+msgstr ""
+
+#: logistic/forms/address.py:24
+msgid "Choose a country"
+msgstr ""
+
+#: logistic/forms/address.py:25
+msgid "Choose a city"
+msgstr ""
+
+#: logistic/helper/enums.py:23
+msgid "Free"
+msgstr ""
+
+#: logistic/helper/enums.py:24 voucher/helper/enums.py:29
+msgid "Fixed price based"
+msgstr ""
+
+#: logistic/helper/enums.py:25
+msgid "Cost based"
+msgstr ""
+
+#: logistic/helper/enums.py:26
+msgid "Weight based"
+msgstr ""
+
+#: logistic/helper/enums.py:27
+msgid "Distance based"
+msgstr ""
+
+#: logistic/models/address.py:21 painless/models/mixins.py:186
+#: warehouse/models/pack.py:38
+msgid "is default"
+msgstr ""
+
+#: logistic/models/address.py:23
+msgid "Is this address default for shipping goods?"
+msgstr ""
+
+#: logistic/models/address.py:30
+msgid "Access to the related user of an address."
+msgstr ""
+
+#: logistic/models/address.py:50
+#: media/templates/pages/components/form/base-address.html:35
+msgid "Address"
+msgstr ""
+
+#: logistic/models/address.py:51 media/templates/pages/account/address.html:32
+msgid "Addresses"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:18
+msgid "monday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:20
+msgid "Monday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:23
+msgid "tuesday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:25
+msgid "Tuesday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:28
+msgid "wednesday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:30
+msgid "Wednesday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:33
+msgid "thursday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:35
+msgid "Thursday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:38
+msgid "friday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:40
+msgid "Friday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:43
+msgid "saturday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:45
+msgid "Saturday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:48
+msgid "sunday"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:50
+msgid "Sunday to be selected for delivery?"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:53 voucher/models/voucher.py:152
+msgid "start datetime"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:55
+msgid "The start time of shipping packs."
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:58 voucher/models/voucher.py:156
+msgid "end datetime"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:60
+msgid "The end time of shipping packs."
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:67
+msgid "Access to the related logistic of a delivery time range."
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:74
+msgid "Delivery Time Range"
+msgstr ""
+
+#: logistic/models/delivery_time_range.py:75
+msgid "Delivery Time Ranges"
+msgstr ""
+
+#: logistic/models/logistic.py:49
+msgid "Logistic title."
+msgstr ""
+
+#: logistic/models/logistic.py:52
+msgid "logistic type"
+msgstr ""
+
+#: logistic/models/logistic.py:56
+msgid "Determines what kind of logistics is."
+msgstr ""
+
+#: logistic/models/logistic.py:59
+msgid "delivery time"
+msgstr ""
+
+#: logistic/models/logistic.py:63
+msgid "General information about the delivery time."
+msgstr ""
+
+#: logistic/models/logistic.py:66
+msgid "maximum weight"
+msgstr ""
+
+#: logistic/models/logistic.py:68
+msgid "The maximum weight allowed for this type of logistic."
+msgstr ""
+
+#: logistic/models/logistic.py:71
+msgid "free shipping threshold"
+msgstr ""
+
+#: logistic/models/logistic.py:76
+msgid "Threshold money to make logistic cost-free."
+msgstr ""
+
+#: logistic/models/logistic.py:79
+msgid "total logistic cost"
+msgstr ""
+
+#: logistic/models/logistic.py:83
+msgid ""
+"If the logistic type is free or fixed price based, it takes the value of the "
+"money type."
+msgstr ""
+
+#: logistic/models/logistic.py:87
+msgid "has delivery time ranges"
+msgstr ""
+
+#: logistic/models/logistic.py:89
+msgid "Does this type of logistic occur at specific times in days?"
+msgstr ""
+
+#: logistic/models/logistic.py:92 warehouse/models/category.py:41
+#: warehouse/models/pack.py:33 warehouse/models/product.py:46
+msgid "is active"
+msgstr ""
+
+#: logistic/models/logistic.py:94
+msgid "Is this logistic active/available?"
+msgstr ""
+
+#: logistic/models/logistic.py:98
+msgid "provinces"
+msgstr ""
+
+#: logistic/models/logistic.py:100
+msgid "Access to the related province(s) of a logistic."
+msgstr ""
+
+#: logistic/models/logistic.py:108
+msgid "Logistic"
+msgstr ""
+
+#: logistic/models/logistic.py:109
+msgid "Logistics"
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:21
+msgid "from cost"
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:26
+msgid "Start of cost range."
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:29
+msgid "to cost"
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:34
+msgid "End of cost range."
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:41
+msgid "Access to the related logistic of a logistic cost range."
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:49
+msgid "Logistic Cost Range"
+msgstr ""
+
+#: logistic/models/logistic_cost_range.py:50
+msgid "Logistic Cost Ranges"
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:19
+msgid "from distance"
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:21
+msgid "Start of distance range."
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:24
+msgid "to distance"
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:26
+msgid "End of distance range."
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:33
+msgid "Access to the related logistic of a logistic distance range."
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:41
+msgid "Logistic Distance Range"
+msgstr ""
+
+#: logistic/models/logistic_distance_range.py:42
+msgid "Logistic Distance Ranges"
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:19
+msgid "from weight"
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:21
+msgid "Start of weight range."
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:24
+msgid "to weight"
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:26
+msgid "End of weight range."
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:33
+msgid "Access to the related logistic of a logistic weight range."
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:41
+msgid "Logistic Weight Range"
+msgstr ""
+
+#: logistic/models/logistic_weight_range.py:42
+msgid "Logistic Weight Ranges"
+msgstr ""
+
+#: logistic/models/province.py:18 painless/models/mixins.py:244
+msgid "province"
+msgstr ""
+
+#: logistic/models/province.py:22
+msgid "Available province."
+msgstr ""
+
+#: logistic/models/province.py:30
+msgid "Provinces"
+msgstr ""
+
+#: media/templates/admin/base.html:46
+msgid "Django site admin"
+msgstr ""
+
+#: media/templates/admin/login.html:19
+msgid "Welcome"
+msgstr ""
+
+#: media/templates/admin/login.html:39
+msgid "Log in"
+msgstr ""
+
+#: media/templates/pages/about.html:12 media/templates/pages/about.html:18
+#: media/templates/pages/partials/header.html:25
+#: media/templates/pages/partials/mobile_menu.html:18
+msgid "About Us"
+msgstr ""
+
+#: media/templates/pages/about.html:14
+#: media/templates/pages/account/dashboard.html:13
+#: media/templates/pages/account/track-order.html:13
+#: media/templates/pages/account/wishlist.html:14
+#: media/templates/pages/components/bread_crumb.html:11
+#: media/templates/pages/components/bread_crumb.html:19
+#: media/templates/pages/contact.html:14 media/templates/pages/faq.html:14
+#: media/templates/pages/product/list.html:13
+msgid "Back to the home page"
+msgstr ""
+
+#: media/templates/pages/about.html:15
+#: media/templates/pages/account/dashboard.html:13
+#: media/templates/pages/account/track-order.html:13
+#: media/templates/pages/account/wishlist.html:14
+#: media/templates/pages/basket/checkout-success.html:14
+#: media/templates/pages/basket/checkout.html:15
+#: media/templates/pages/components/bread_crumb.html:12
+#: media/templates/pages/components/bread_crumb.html:20
+#: media/templates/pages/contact.html:14 media/templates/pages/faq.html:15
+#: media/templates/pages/partials/header.html:13
+#: media/templates/pages/partials/mobile_menu.html:8
+#: media/templates/pages/product/detail.html:10
+#: media/templates/pages/product/list.html:14
+msgid "Home"
+msgstr ""
+
+#: media/templates/pages/about.html:32
+#: media/templates/pages/partials/footer.html:17
+msgid "About us"
+msgstr ""
+
+#: media/templates/pages/about.html:33
+msgid "Who we are"
+msgstr ""
+
+#: media/templates/pages/about.html:41
+msgid "Our Vision"
+msgstr ""
+
+#: media/templates/pages/about.html:48
+msgid "Our Mission"
+msgstr ""
+
+#: media/templates/pages/about.html:64
+msgid "Who We Are"
+msgstr ""
+
+#: media/templates/pages/about.html:67
+msgid ""
+"\n"
+"                                Amazing things will happen when you listen "
+"to the consumer.\n"
+"                            "
+msgstr ""
+
+#: media/templates/pages/about.html:73
+msgid ""
+"\n"
+"                        We build our platform on technology that we consider "
+"people's agency to be pleasant experiences \n"
+"                        of buying and selling for all of Iran. As the most "
+"popular online store in Iran and the region, \n"
+"                        we are on the way to becoming the first online "
+"shopping and selling reference, and for this \n"
+"                        purpose, we provide services that meet global "
+"standards. Ecommerce's identity is more than \n"
+"                        anything influenced by the audience and we take "
+"steps based on their needs. \n"
+"                        For this reason, central management is the most "
+"important value of our business in \n"
+"                        Ecommerce Group.\n"
+"                        "
+msgstr ""
+
+#: media/templates/pages/about.html:83
+msgid "View our News"
+msgstr ""
+
+#: media/templates/pages/account/address.html:33
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: media/templates/pages/account/address.html:37
+msgid "Shipping address"
+msgstr ""
+
+#: media/templates/pages/account/address.html:38
+msgid "Edit"
+msgstr ""
+
+#: media/templates/pages/account/address.html:46
+msgid "Shipping details"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:11
+#: media/templates/pages/account/dashboard.html:15
+#: media/templates/pages/account/track-order.html:11
+#: media/templates/pages/account/wishlist.html:12
+#: media/templates/pages/partials/footer.html:16
+msgid "My Account"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:37
+#: media/templates/pages/partials/header.html:76
+msgid "Dashboard"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:38
+msgid "From your account dashboard. you can easily check & view your"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:39
+msgid "recent orders"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:39
+msgid "manage your"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:40
+msgid "shipping and billing addresses"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:40
+msgid "and"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:41
+msgid "edit your password and account details."
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:48
+msgid "All Orders"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:52
+msgid "Awaiting Payments"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:56
+msgid "Awaiting Shipment"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:60
+msgid "Awaiting Delivery"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:64
+msgid "Processing Orders"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:68
+msgid "Expired Orders"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:72
+msgid "Canceled Orders"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:76
+msgid "Complete Orders"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:85
+#: media/templates/pages/account/orders.html:38
+msgid "Row"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:86
+#: media/templates/pages/account/orders.html:39
+#: media/templates/pages/account/track-order.html:43
+#: media/templates/pages/account/track-order.html:44
+#: media/templates/pages/account/track-order.html:64
+msgid "Transaction Number"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:87
+#: media/templates/pages/account/orders.html:40
+#: media/templates/pages/product/compare.html:70
+msgid "Status"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:88
+#: media/templates/pages/account/orders.html:41
+msgid "Total Products"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:89
+#: media/templates/pages/account/orders.html:42
+msgid "Total"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:90
+#: media/templates/pages/account/orders.html:43
+msgid "Date"
+msgstr ""
+
+#: media/templates/pages/account/dashboard.html:91
+#: media/templates/pages/account/orders.html:44
+msgid "Actions"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:15
+msgid "Order Tracking"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:37
+msgid "Orders tracking"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:40
+msgid ""
+"To track your order please enter your OrderID in the box below and press "
+"\"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:50
+msgid "Track"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:57
+msgid "Status for order no"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:68
+msgid "Customer"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:72
+msgid "Order Date"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:81
+msgid "Shipping Address"
+msgstr ""
+
+#: media/templates/pages/account/track-order.html:85
+msgid "Logistic Method"
+msgstr ""
+
+#: media/templates/pages/account/wishlist.html:14
+#: media/templates/pages/partials/header.html:67
+#: media/templates/pages/partials/mobile_menu.html:40
+msgid "Wishlist"
+msgstr ""
+
+#: media/templates/pages/account/wishlist.html:35
+msgid "My Wishlist"
+msgstr ""
+
+#: media/templates/pages/account/wishlist.html:44
+msgid "Remove"
+msgstr ""
+
+#: media/templates/pages/account/wishlist.html:65
+msgid "Discount"
+msgstr ""
+
+#: media/templates/pages/account/wishlist.html:67
+msgid "Out of Stock"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:16
+#: media/templates/pages/basket/checkout.html:17
+msgid "Basket"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:18
+#: media/templates/pages/basket/checkout.html:13
+#: media/templates/pages/basket/checkout.html:19
+msgid "Invoice"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:35
+#: media/templates/pages/basket/checkout-success.html:50
+msgid "There was a problem with placing your order"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:36
+#: media/templates/pages/basket/checkout-success.html:51
+msgid "Please contact support and save tracking code for future follow ups."
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:37
+#: media/templates/pages/basket/checkout-success.html:45
+#: media/templates/pages/basket/checkout-success.html:52
+msgid "Tracking Code"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:42
+msgid "Thank you for placing your order"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:43
+msgid ""
+"You will receive an order confirmation email with order details and a link "
+"to track its progress."
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:44
+msgid ""
+"We have sent all the necessary information about the delivery to your email"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:47
+#: media/templates/pages/basket/checkout-success.html:54
+msgid "Date of submitting order"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:68
+msgid "Review Order"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:104
+msgid "Keep Shopping"
+msgstr ""
+
+#: media/templates/pages/basket/checkout-success.html:106
+msgid "Print Invoice"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:39
+#: media/templates/pages/components/product/tab.html:6
+#: media/templates/pages/components/product/tab.html:11
+msgid "Description"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:50
+msgid "Your Order"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:55 warehouse/models/product.py:84
+msgid "Product"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:56
+msgid "Price"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:57
+msgid "Count"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:58
+#: media/templates/pages/basket/checkout.html:84
+msgid "Total Cost"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:67
+#: media/templates/pages/components/product/filter_dynamic.html:55
+#: media/templates/pages/components/product/info.html:77
+#: media/templates/pages/product/list.html:68 warehouse/models/color.py:40
+msgid "Color"
+msgstr ""
+
+#: media/templates/pages/basket/checkout.html:183
+msgid "Submit Order And Buy"
+msgstr ""
+
+#: media/templates/pages/components/card/collection_banner.html:25
+#: media/templates/pages/components/card/feature.html:24
+#: media/templates/pages/components/card/list.html:66
+#: media/templates/pages/index.html:81 media/templates/pages/index.html:121
+msgid "There is no record!"
+msgstr ""
+
+#: media/templates/pages/components/dashboard-header.html:24
+msgid "View Cart"
+msgstr ""
+
+#: media/templates/pages/components/form/base-address.html:5
+#: media/templates/pages/components/product/tab.html:42
+#: media/templates/pages/components/product/tab.html:119
+#: media/templates/pages/contact.html:56
+msgid "Name"
+msgstr ""
+
+#: media/templates/pages/components/form/base-address.html:9
+msgid "Last Name"
+msgstr ""
+
+#: media/templates/pages/components/product/filter_dynamic.html:9
+#: warehouse/models/category.py:89
+msgid "Categories"
+msgstr ""
+
+#: media/templates/pages/components/product/filter_dynamic.html:102
+msgid "Product Tags"
+msgstr ""
+
+#: media/templates/pages/components/product/filter_dynamic.html:117
+msgid "Popular Products"
+msgstr ""
+
+#: media/templates/pages/components/product/gallery.html:14
+msgid "Zoom Image"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:16
+msgid "SKU"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:21
+#: media/templates/pages/product/list.html:63 warehouse/models/category.py:88
+msgid "Category"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:25
+#: media/templates/pages/partials/header.html:113
+msgid "All"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:35
+#: warehouse/models/tag.py:31
+msgid "Tags"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:47
+msgid "Regular price"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:148
+msgid "I agree with the terms and conditions"
+msgstr ""
+
+#: media/templates/pages/components/product/info.html:158
+#: media/templates/pages/components/product/list.html:56
+msgid "Add to Compare"
+msgstr ""
+
+#: media/templates/pages/components/product/list.html:39
+msgid "Add to Cart"
+msgstr ""
+
+#: media/templates/pages/components/product/list.html:47
+msgid "Add To Wishlist"
+msgstr ""
+
+#: media/templates/pages/components/product/list_toolbar.html:7
+msgid "Filter"
+msgstr ""
+
+#: media/templates/pages/components/product/list_toolbar.html:11
+msgid "Showing"
+msgstr ""
+
+#: media/templates/pages/components/product/list_toolbar.html:13
+msgid "from total"
+msgstr ""
+
+#: media/templates/pages/components/product/list_toolbar.html:23
+msgid "Grid View"
+msgstr ""
+
+#: media/templates/pages/components/product/list_toolbar.html:27
+msgid "List View"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:39
+#: media/templates/pages/components/product/tab.html:116
+msgid "Write A Review"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:64
+#: media/templates/pages/components/product/tab.html:141
+msgid "Body of Review"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:66
+#: media/templates/pages/components/product/tab.html:143
+msgid "Write your comments here"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:71
+#: media/templates/pages/components/product/tab.html:148
+msgid "Submit Review"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:77
+msgid "Customer Comments"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:92
+msgid "There is no Comment"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:154
+msgid "Customer Reviews"
+msgstr ""
+
+#: media/templates/pages/components/product/tab.html:168
+msgid "There is no Review"
+msgstr ""
+
+#: media/templates/pages/contact.html:12 media/templates/pages/contact.html:16
+#: media/templates/pages/partials/footer.html:23
+#: media/templates/pages/partials/header.html:31
+#: media/templates/pages/partials/mobile_menu.html:23
+msgid "Contact Us"
+msgstr ""
+
+#: media/templates/pages/contact.html:30
+msgid "Contact us"
+msgstr ""
+
+#: media/templates/pages/contact.html:31
+msgid "keep in touch with us"
+msgstr ""
+
+#: media/templates/pages/contact.html:42
+msgid "Drop Us A Line"
+msgstr ""
+
+#: media/templates/pages/contact.html:75
+msgid "Subject"
+msgstr ""
+
+#: media/templates/pages/contact.html:83
+msgid "Message"
+msgstr ""
+
+#: media/templates/pages/contact.html:91
+msgid "Send Message"
+msgstr ""
+
+#: media/templates/pages/contact.html:108
+msgid "ADDRESS"
+msgstr ""
+
+#: media/templates/pages/contact.html:114
+msgid "PHONE"
+msgstr ""
+
+#: media/templates/pages/contact.html:117
+msgid "EMAIL"
+msgstr ""
+
+#: media/templates/pages/contact.html:125
+msgid "STAY CONNECTED"
+msgstr ""
+
+#: media/templates/pages/faq.html:12 media/templates/pages/faq.html:18
+#: media/templates/pages/partials/header.html:37
+#: media/templates/pages/partials/mobile_menu.html:28 pages/models/faq.py:32
+#: pages/views/traditional.py:29
+msgid "FAQ"
+msgstr ""
+
+#: media/templates/pages/partials/footer.html:14
+msgid "Informations"
+msgstr ""
+
+#: media/templates/pages/partials/footer.html:18
+#: media/templates/pages/partials/header.html:83
+#: media/templates/pages/partials/mobile_menu.html:33
+msgid "Login"
+msgstr ""
+
+#: media/templates/pages/partials/footer.html:19 pages/views/auth.py:26
+#: pages/views/auth.py:28
+msgid "Register"
+msgstr ""
+
+#: media/templates/pages/partials/footer.html:25
+msgid "Phone"
+msgstr ""
+
+#: media/templates/pages/partials/footer.html:34
+msgid "Team All Rights Reserved"
+msgstr ""
+
+#: media/templates/pages/partials/header.html:19
+#: media/templates/pages/partials/mobile_menu.html:13
+#: media/templates/pages/product/detail.html:12
+#: media/templates/pages/product/list.html:11
+#: media/templates/pages/product/list.html:17 warehouse/models/product.py:85
+msgid "Products"
+msgstr ""
+
+#: media/templates/pages/partials/header.html:106
+msgid "Search"
+msgstr ""
+
+#: media/templates/pages/partials/header.html:111
+msgid "All Categories"
+msgstr ""
+
+#: media/templates/pages/partials/header.html:122
+msgid "Search by keyword or #"
+msgstr ""
+
+#: media/templates/pages/partials/mobile_menu.html:4
+msgid "Close Menu"
+msgstr ""
+
+#: media/templates/pages/partials/mobile_menu.html:36
+msgid "Signup"
+msgstr ""
+
+#: media/templates/pages/partials/mobile_menu.html:44
+msgid "Compare"
+msgstr ""
+
+#: media/templates/pages/product/compare.html:77
+msgid "In Stock"
+msgstr ""
+
+#: media/templates/pages/product/compare.html:81
+msgid "Out Of Stock"
+msgstr ""
+
+#: media/templates/pages/product/compare.html:89
+msgid "Add To Cart"
+msgstr ""
+
+#: media/templates/pages/product/detail.html:10
+msgid "Back to the Home page"
+msgstr ""
+
+#: media/templates/pages/product/detail.html:12
+msgid "Back to Product list"
+msgstr ""
+
+#: media/templates/pages/product/detail.html:43
+msgid "Related Products"
+msgstr ""
+
+#: media/templates/pages/product/list.html:57
+msgid "Clear all"
+msgstr ""
+
+#: media/templates/pages/product/list.html:73 warehouse/models/tag.py:30
+msgid "Tag"
+msgstr ""
+
+#: media/templates/shared/_site.html:17
+msgid "pyez"
+msgstr ""
+
+#: pages/admin/banner.py:24
+msgid "Search by name of picture."
+msgstr ""
+
+#: pages/models/banner.py:23
+msgid "banner"
+msgstr ""
+
+#: pages/models/banner.py:24
+msgid "banners"
+msgstr ""
+
+#: pages/models/contact.py:35
+msgid "Required. 20 characters or fewer."
+msgstr ""
+
+#: pages/models/contact.py:48 pages/views/traditional.py:39
+msgid "Contact"
+msgstr ""
+
+#: pages/models/contact.py:49
+msgid "Contacts"
+msgstr ""
+
+#: pages/models/faq.py:18
+msgid "FAQ Category"
+msgstr ""
+
+#: pages/models/faq.py:19
+msgid "FAQ Categories"
+msgstr ""
+
+#: pages/models/faq.py:45
+msgid "Question & Answer"
+msgstr ""
+
+#: pages/models/faq.py:46
+msgid "Questions & Answers"
+msgstr ""
+
+#: pages/views/account.py:57
+msgid "Transaction must be a number."
+msgstr ""
+
+#: pages/views/account.py:59
+msgid "Order matching transaction number does not exist."
+msgstr ""
+
+#: pages/views/auth.py:52 pages/views/auth.py:54
+msgid "Log In"
+msgstr ""
+
+#: pages/views/compare.py:23
+msgid "Product Compare"
+msgstr ""
+
+#: pages/views/compare.py:33
+msgid "There was a problem with deleting product."
+msgstr ""
+
+#: pages/views/compare.py:64
+msgid "There was a problem with your compare list."
+msgstr ""
+
+#: pages/views/traditional.py:45
+msgid "About"
+msgstr ""
+
+#: painless/api/exceptions.py:11
+msgid "Bad Request."
+msgstr ""
+
+#: painless/api/exceptions.py:12
+#, python-brace-format
+msgid "Expected available in {wait} second."
+msgstr ""
+
+#: painless/api/exceptions.py:13
+#, python-brace-format
+msgid "Expected available in {wait} seconds."
+msgstr ""
+
+#: painless/models/mixins.py:28
+msgid "sku"
+msgstr ""
+
+#: painless/models/mixins.py:34
+msgid ""
+"An alternate field to store the unique identity per object. This field is "
+"also shown in the URL."
+msgstr ""
+
+#: painless/models/mixins.py:38
+msgid "stock unit"
+msgstr ""
+
+#: painless/models/mixins.py:50
+#, python-brace-format
+msgid "{0} title."
+msgstr ""
+
+#: painless/models/mixins.py:63
+msgid ""
+"Slug is a newspaper term. A short label for something containing only "
+"letters, numbers, underscores, or hyphens. They are generally used in URLs."
+msgstr ""
+
+#: painless/models/mixins.py:78
+msgid "description"
+msgstr ""
+
+#: painless/models/mixins.py:79
+msgid "Long description."
+msgstr ""
+
+#: painless/models/mixins.py:92 painless/models/mixins.py:104
+#: painless/models/mixins.py:112
+msgid "created"
+msgstr ""
+
+#: painless/models/mixins.py:94
+msgid "Automatic registration of record creation time in the database."
+msgstr ""
+
+#: painless/models/mixins.py:98 painless/models/mixins.py:108
+#: painless/models/mixins.py:116
+msgid "modified"
+msgstr ""
+
+#: painless/models/mixins.py:100
+msgid "Automatic registration of record modification time in the database."
+msgstr ""
+
+#: painless/models/mixins.py:126 painless/models/mixins.py:180
+msgid "picture"
+msgstr ""
+
+#: painless/models/mixins.py:130 painless/models/mixins.py:170
+#: painless/models/mixins.py:183
+msgid "The picture that is uploaded."
+msgstr ""
+
+#: painless/models/mixins.py:133
+msgid "alternate text"
+msgstr ""
+
+#: painless/models/mixins.py:139
+msgid ""
+"Describe the picture that is uploaded. Please write a sound description for "
+"search engine optimization (SEO)."
+msgstr ""
+
+#: painless/models/mixins.py:144
+msgid "width field"
+msgstr ""
+
+#: painless/models/mixins.py:147
+msgid "The picture's width."
+msgstr ""
+
+#: painless/models/mixins.py:150
+msgid "height field"
+msgstr ""
+
+#: painless/models/mixins.py:153
+msgid "The picture's height."
+msgstr ""
+
+#: painless/models/mixins.py:164
+msgid "Picture"
+msgstr ""
+
+#: painless/models/mixins.py:188
+msgid "Is this picture default?"
+msgstr ""
+
+#: painless/models/mixins.py:205
+msgid "The country where the user has submitted his/her order."
+msgstr ""
+
+#: painless/models/mixins.py:208
+msgid "The province where the user has submitted his/her order."
+msgstr ""
+
+#: painless/models/mixins.py:211
+msgid "The city where the user has submitted his/her order."
+msgstr ""
+
+#: painless/models/mixins.py:214
+msgid "The postal address where the user has submitted his/her order."
+msgstr ""
+
+#: painless/models/mixins.py:217
+msgid "The postal code where the user has submitted his/her order."
+msgstr ""
+
+#: painless/models/mixins.py:220
+msgid ""
+"The license plate number of the house where the user wants to receive his/"
+"her order."
+msgstr ""
+
+#: painless/models/mixins.py:222
+msgid "The house unit number where the user wants to receive his/her order."
+msgstr ""
+
+#: painless/models/mixins.py:225
+msgid "The registered country for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:227
+msgid "The registered province for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:229
+msgid "The registered city for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:231
+msgid "The registered postal address for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:233
+msgid "The registered postal code for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:235
+msgid "The registered house number for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:237
+msgid "The registered house unit number for shipping goods."
+msgstr ""
+
+#: painless/models/mixins.py:241
+msgid "country"
+msgstr ""
+
+#: painless/models/mixins.py:249
+msgid "city"
+msgstr ""
+
+#: painless/models/mixins.py:254
+msgid "postal address"
+msgstr ""
+
+#: painless/models/mixins.py:257
+msgid "postal code"
+msgstr ""
+
+#: painless/models/mixins.py:262
+msgid "house number"
+msgstr ""
+
+#: painless/models/mixins.py:267
+msgid "building unit"
+msgstr ""
+
+#: painless/models/mixins.py:281
+msgid "The first name of the person who receives the order."
+msgstr ""
+
+#: painless/models/mixins.py:283
+msgid "The last name of the person who receives the order."
+msgstr ""
+
+#: painless/models/mixins.py:285
+msgid "The phone number of the person who receives the order."
+msgstr ""
+
+#: painless/models/mixins.py:288
+msgid "The receiver's first name to receive the goods."
+msgstr ""
+
+#: painless/models/mixins.py:290
+msgid "The receiver's last name to receive the goods."
+msgstr ""
+
+#: painless/models/mixins.py:292
+msgid "The receiver's phone number to receive the goods."
+msgstr ""
+
+#: painless/models/mixins.py:295
+msgid "receiver first name"
+msgstr ""
+
+#: painless/models/mixins.py:300
+msgid "receiver last name"
+msgstr ""
+
+#: painless/models/mixins.py:305
+msgid "receiver phone number"
+msgstr ""
+
+#: painless/models/mixins.py:319
+#, python-brace-format
+msgid ""
+"If the logistic type is {0} based, it takes the value of the money type."
+msgstr ""
+
+#: painless/models/mixins.py:324
+msgid "logistic cost"
+msgstr ""
+
+#: painless/models/validators/picture.py:21
+#, python-brace-format
+msgid ""
+"Expected dimension is: [{self.width}w, {self.height}h] but actual is: "
+"[{width}w, {height}h]"
+msgstr ""
+
+#: painless/models/validators/picture.py:45
+msgid "Width and Height must "
+msgstr ""
+
+#: voucher/admin/single_use_voucher.py:31
+msgid "Search single user voucher by their title."
+msgstr ""
+
+#: voucher/admin/voucher.py:36 voucher/admin/voucher_range.py:25
+msgid "Search vouchers by their title."
+msgstr ""
+
+#: voucher/helper/enums.py:13
+msgid "Static based"
+msgstr ""
+
+#: voucher/helper/enums.py:14
+msgid "Code based"
+msgstr ""
+
+#: voucher/helper/enums.py:30
+msgid "Percentage based"
+msgstr ""
+
+#: voucher/helper/enums.py:39
+msgid "Open"
+msgstr ""
+
+#: voucher/helper/enums.py:40
+msgid "Suspend"
+msgstr ""
+
+#: voucher/helper/enums.py:41
+msgid "Consumed"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:35 voucher/models/voucher.py:116
+msgid "code"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:37
+msgid "Voucher codes are read from an Excel file."
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:40
+msgid "used datetime"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:42
+msgid "Voucher usage date."
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:45
+msgid "is expired"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:47
+msgid "Is this voucher expired?"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:51 voucher/models/voucher_range.py:34
+msgid "voucher"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:54
+msgid "Access to the related voucher of a single use voucher."
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:62
+msgid "Access to the related user of a single use voucher."
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:70
+msgid "Single Use Voucher"
+msgstr ""
+
+#: voucher/models/single_use_voucher.py:71
+msgid "Single Use Vouchers"
+msgstr ""
+
+#: voucher/models/voucher.py:77
+msgid "voucher kind"
+msgstr ""
+
+#: voucher/models/voucher.py:81
+msgid "Determines what kind of voucher is."
+msgstr ""
+
+#: voucher/models/voucher.py:84
+msgid "voucher type"
+msgstr ""
+
+#: voucher/models/voucher.py:88
+msgid "Determines what type of voucher is."
+msgstr ""
+
+#: voucher/models/voucher.py:95
+msgid "Status of the voucher."
+msgstr ""
+
+#: voucher/models/voucher.py:98
+msgid "fixed price based"
+msgstr ""
+
+#: voucher/models/voucher.py:104
+msgid ""
+"If the voucher type is fixed price based, it takes the value of the money "
+"type."
+msgstr ""
+
+#: voucher/models/voucher.py:108
+msgid "percentage based"
+msgstr ""
+
+#: voucher/models/voucher.py:112
+msgid ""
+"If the voucher type is percentage based, takes the value between 0 to 100 "
+"percent."
+msgstr ""
+
+#: voucher/models/voucher.py:121
+msgid "Voucher code."
+msgstr ""
+
+#: voucher/models/voucher.py:124
+msgid "excel file"
+msgstr ""
+
+#: voucher/models/voucher.py:128
+msgid "Upload the voucher excel file as CSV for the single-use voucher model."
+msgstr ""
+
+#: voucher/models/voucher.py:132
+msgid "minimum basket value"
+msgstr ""
+
+#: voucher/models/voucher.py:136
+msgid "The minimum basket amount to activate the voucher."
+msgstr ""
+
+#: voucher/models/voucher.py:139
+msgid "maximum global applications"
+msgstr ""
+
+#: voucher/models/voucher.py:140
+msgid "The number of times the voucher is used."
+msgstr ""
+
+#: voucher/models/voucher.py:143
+msgid "maximum user applications"
+msgstr ""
+
+#: voucher/models/voucher.py:145
+msgid "The number of times the voucher per user is used."
+msgstr ""
+
+#: voucher/models/voucher.py:148
+msgid "total usage"
+msgstr ""
+
+#: voucher/models/voucher.py:149
+msgid "The number of times this voucher has been used."
+msgstr ""
+
+#: voucher/models/voucher.py:153
+msgid "The release date or the start of the voucher."
+msgstr ""
+
+#: voucher/models/voucher.py:157
+msgid "The expiry date or the end of the voucher."
+msgstr ""
+
+#: voucher/models/voucher.py:160
+msgid "is single use code"
+msgstr ""
+
+#: voucher/models/voucher.py:164
+msgid "Is this voucher single-use type?"
+msgstr ""
+
+#: voucher/models/voucher.py:168
+msgid "users"
+msgstr ""
+
+#: voucher/models/voucher.py:170
+msgid "Access to the related user(s) of a voucher."
+msgstr ""
+
+#: voucher/models/voucher.py:178
+msgid "Voucher"
+msgstr ""
+
+#: voucher/models/voucher.py:179
+msgid "Vouchers"
+msgstr ""
+
+#: voucher/models/voucher_range.py:28
+msgid "is include all products"
+msgstr ""
+
+#: voucher/models/voucher_range.py:30
+msgid "Is this voucher include all products?"
+msgstr ""
+
+#: voucher/models/voucher_range.py:37
+msgid "The voucher this voucher range belongs to."
+msgstr ""
+
+#: voucher/models/voucher_range.py:41
+msgid "categories"
+msgstr ""
+
+#: voucher/models/voucher_range.py:43
+msgid "Access to the related category(ies) of a voucher range."
+msgstr ""
+
+#: voucher/models/voucher_range.py:49
+msgid "Access to the related pack(s) of a voucher range."
+msgstr ""
+
+#: voucher/models/voucher_range.py:56
+msgid "Voucher Range"
+msgstr ""
+
+#: voucher/models/voucher_range.py:57
+msgid "Voucher Ranges"
+msgstr ""
+
+#: warehouse/admin/brand.py:48
+msgid "Search brands by their title."
+msgstr ""
+
+#: warehouse/admin/category.py:58
+msgid "Search (sub/parent)categories by their title."
+msgstr ""
+
+#: warehouse/admin/color.py:27
+msgid "Search colors by their title."
+msgstr ""
+
+#: warehouse/admin/expense.py:46
+msgid "Expense Information"
+msgstr ""
+
+#: warehouse/admin/expense.py:53
+msgid "Stock Information"
+msgstr ""
+
+#: warehouse/admin/pack.py:61
+msgid "Search packs by their product, color, and warranty title."
+msgstr ""
+
+#: warehouse/admin/product.py:116
+msgid "Search products by their title."
+msgstr ""
+
+#: warehouse/admin/product.py:145
+msgid "Product Information"
+msgstr ""
+
+#: warehouse/admin/tag.py:32
+msgid "Search tags by their title."
+msgstr ""
+
+#: warehouse/admin/warranty.py:27
+msgid "Search warranties by their title."
+msgstr ""
+
+#: warehouse/helper/enums.py:6
+msgid "First"
+msgstr ""
+
+#: warehouse/helper/enums.py:7
+msgid "Second"
+msgstr ""
+
+#: warehouse/helper/enums.py:8
+msgid "Other"
+msgstr ""
+
+#: warehouse/models/brand.py:29
+msgid "Brand"
+msgstr ""
+
+#: warehouse/models/brand.py:30
+msgid "Brands"
+msgstr ""
+
+#: warehouse/models/category.py:43
+msgid "Is this category active/available on the website?"
+msgstr ""
+
+#: warehouse/models/category.py:46
+msgid "is shippable"
+msgstr ""
+
+#: warehouse/models/category.py:48
+msgid "Are the products of this category shippable?"
+msgstr ""
+
+#: warehouse/models/category.py:51
+msgid "is color important"
+msgstr ""
+
+#: warehouse/models/category.py:53
+msgid "Does the color of this category affect the price of the product or not?"
+msgstr ""
+
+#: warehouse/models/category.py:57
+msgid "is virtual"
+msgstr ""
+
+#: warehouse/models/category.py:59
+msgid "Are the products of this category virtual?"
+msgstr ""
+
+#: warehouse/models/category.py:62
+msgid "is downloadable"
+msgstr ""
+
+#: warehouse/models/category.py:64
+msgid "When it's true, it indicates that products are virtual."
+msgstr ""
+
+#: warehouse/models/category.py:68
+msgid "super category"
+msgstr ""
+
+#: warehouse/models/category.py:73
+msgid "Provide hierarchical categories."
+msgstr ""
+
+#: warehouse/models/color.py:26
+msgid "Color title."
+msgstr ""
+
+#: warehouse/models/color.py:29
+msgid "hex code"
+msgstr ""
+
+#: warehouse/models/color.py:33
+msgid "Hex color representation."
+msgstr ""
+
+#: warehouse/models/color.py:41
+msgid "Colors"
+msgstr ""
+
+#: warehouse/models/expense.py:33
+msgid "price"
+msgstr ""
+
+#: warehouse/models/expense.py:37
+msgid "Selling price for the customer."
+msgstr ""
+
+#: warehouse/models/expense.py:44
+msgid "The purchase price for the vendor."
+msgstr ""
+
+#: warehouse/models/expense.py:47
+msgid "count stock"
+msgstr ""
+
+#: warehouse/models/expense.py:49
+msgid "The quantity of product in stock that is shown to the customer."
+msgstr ""
+
+#: warehouse/models/expense.py:53
+msgid "actual count stock"
+msgstr ""
+
+#: warehouse/models/expense.py:55
+msgid "The actual quantity of product left in the stock."
+msgstr ""
+
+#: warehouse/models/expense.py:58
+msgid "is suppliable"
+msgstr ""
+
+#: warehouse/models/expense.py:60
+msgid "Is this product with this expense suppliable from other origins?"
+msgstr ""
+
+#: warehouse/models/expense.py:68
+msgid "The pack this expense belongs to."
+msgstr ""
+
+#: warehouse/models/expense.py:76
+msgid "Expense"
+msgstr ""
+
+#: warehouse/models/expense.py:77
+msgid "Expenses"
+msgstr ""
+
+#: warehouse/models/pack.py:35
+msgid "Is this pack active/available on the website?"
+msgstr ""
+
+#: warehouse/models/pack.py:40
+msgid "Is this pack default?"
+msgstr ""
+
+#: warehouse/models/pack.py:47
+msgid "Access to the related product of a pack."
+msgstr ""
+
+#: warehouse/models/pack.py:51
+msgid "color"
+msgstr ""
+
+#: warehouse/models/pack.py:55
+msgid "Access to the related color of a pack."
+msgstr ""
+
+#: warehouse/models/pack.py:59
+msgid "warranty"
+msgstr ""
+
+#: warehouse/models/pack.py:63
+msgid "Access to the related warranty of a pack."
+msgstr ""
+
+#: warehouse/models/pack.py:71
+msgid "Pack"
+msgstr ""
+
+#: warehouse/models/pack.py:72
+msgid "Packs"
+msgstr ""
+
+#: warehouse/models/physical_info.py:22
+msgid "height"
+msgstr ""
+
+#: warehouse/models/physical_info.py:24
+msgid "product height."
+msgstr ""
+
+#: warehouse/models/physical_info.py:27
+msgid "width"
+msgstr ""
+
+#: warehouse/models/physical_info.py:29
+msgid "product width."
+msgstr ""
+
+#: warehouse/models/physical_info.py:32
+msgid "depth"
+msgstr ""
+
+#: warehouse/models/physical_info.py:34
+msgid "product depth."
+msgstr ""
+
+#: warehouse/models/physical_info.py:37
+msgid "net weight"
+msgstr ""
+
+#: warehouse/models/physical_info.py:39
+msgid "The actual weight of the product without packaging."
+msgstr ""
+
+#: warehouse/models/physical_info.py:42
+msgid "gross weight"
+msgstr ""
+
+#: warehouse/models/physical_info.py:44
+msgid "Total product weight with packaging."
+msgstr ""
+
+#: warehouse/models/physical_info.py:51
+msgid "The product this physical information belongs to."
+msgstr ""
+
+#: warehouse/models/physical_info.py:58 warehouse/models/physical_info.py:59
+msgid "Physical Information"
+msgstr ""
+
+#: warehouse/models/product.py:41
+msgid "subtitle"
+msgstr ""
+
+#: warehouse/models/product.py:43
+msgid "Product subtitle."
+msgstr ""
+
+#: warehouse/models/product.py:48
+msgid "Is this product active/available on the website?"
+msgstr ""
+
+#: warehouse/models/product.py:51
+msgid "is voucher active"
+msgstr ""
+
+#: warehouse/models/product.py:53
+msgid "Is this product has a discount/voucher/offer on the website?"
+msgstr ""
+
+#: warehouse/models/product.py:58
+msgid "brand"
+msgstr ""
+
+#: warehouse/models/product.py:62
+msgid "Access to the related brand of a product."
+msgstr ""
+
+#: warehouse/models/product.py:70
+msgid "Access to the related category of a product."
+msgstr ""
+
+#: warehouse/models/product.py:74
+msgid "tags"
+msgstr ""
+
+#: warehouse/models/product.py:76
+msgid "Access to the related tag(s) of a product."
+msgstr ""
+
+#: warehouse/models/product.py:104
+msgid "Product ShowCase"
+msgstr ""
+
+#: warehouse/models/product.py:105
+msgid "Product ShowCases"
+msgstr ""
+
+#: warehouse/models/product_gallery.py:23
+msgid "image status"
+msgstr ""
+
+#: warehouse/models/product_gallery.py:27
+msgid "Determines what banner picture is on the website."
+msgstr ""
+
+#: warehouse/models/product_gallery.py:34
+msgid "Access to the related product of a gallery."
+msgstr ""
+
+#: warehouse/models/product_gallery.py:49
+msgid "Gallery"
+msgstr ""
+
+#: warehouse/models/product_gallery.py:50
+msgid "Galleries"
+msgstr ""
+
+#: warehouse/models/warranty.py:33
+msgid "Warranty title."
+msgstr ""
+
+#: warehouse/models/warranty.py:40
+msgid "Warranty"
+msgstr ""
+
+#: warehouse/models/warranty.py:41
+msgid "Warranties"
+msgstr ""
